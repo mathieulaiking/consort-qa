@@ -1,0 +1,47 @@
+﻿id,kappa,question,corr_id
+D01,0.96,Is the study identified as randomized in the title ?,C01
+D02,0.38,"Is there a structured summary of the trial design (e.g., parallel, crossover, cluster, non-inferiority) ?",C02
+D03a,0.77,Are the eligibility criteria for participants mentioned?,C03a
+D03b,0.81,Are the settings or locations where the data were collected stated in the abstract ?,C03b
+D04a,0.80,Do the authors report essential features of the experimental intervention (if needed) ?,C04
+D04b,0.76,Do the authors report essential features of the comparison (= control) intervention (if needed) ?,C04
+D05,0.73,Are there specific objectives or hypothesis stated ?,C05
+D06a,0.91,"Do the authors explicitly state the primary outcome as such (eg, primary / main / principal, measure / outcome) ?",C06
+D06b,0.69,Do the authors explicitly state when the primary outcome was assessed (time frame) ?,C06
+D07,0.49,"If they declared a random allocation to interventions (if they did not answer no), do the authors correctly report how they were allocated (e.g., computer-generated, random numbers, coin toss, etc.) ?",C07b
+D08a,0.77,"Do authors describe if participants were blinded ? (answer yes only if participants are blinded, do not care about caregivers or outcome assessors)",C08
+D08b,0.77,"Do authors describe if the program deliverer (caregiver) were blinded ? (answer yes only if caregivers are blinded, do not care about participants or outcome assessors)",C08
+D08c,0.66,"Do authors describe if data collectors (outcome assessors, analysts) were blinded ? (answer yes only if data collectors are blinded, do not care about participants or caregivers)",C08
+D09,0.95,Are the numbers of participants randomized to each group clearly stated ?,C09
+D10,0.88,Are the numbers of participants analyzed for each group clearly stated (not the number randomized but the patients included in the analysis of the primary outcome)?,C11
+D11,0.94,"For the primary outcome, is there a result for each group and the estimated effect size and its precision (e.g., 95% CI ) ? (if one of them is missing, answer no)","C12a,C12b,C12c"
+D12,0.00,Do the authors correctly mention the presence or absence of adverse events or side effects ?,C13
+D13a,0.75,Do the authors state the conclusions of the trial?,
+D13b,0.74,Do the authors state implications for further research or clinical practice ?,
+D14a,1.00,Do the authors provide the trial registration number ?,C15
+D14b,0.98,Do the authors provide the name of the trial register ?,C15
+D15,0.88,Do the authors declare the source of funding ?,C16
+C01,0.96,Is the study identified as randomized in the title ?,D01
+C02,0.38,"Is there a structured summary of the trial design (e.g., parallel, crossover, cluster, non-inferiority) ?",D02
+C03a,0.77,Are the eligibility criteria for participants mentioned?,D03a
+C03b,0.81,Are the settings or locations where the data were collected stated in the abstract ?,D03b
+C04,0.78,"Are the interventions sufficiently detailed for each group (eg, when, how) ?","D04a,D04b"
+C05,0.73,Are there specific objectives or hypothesis stated ?,D05
+C06,0.80,Are the primary outcomes clearly described for this trial in methods ?,"D06a,D06b"
+C07a,,"Is the random assignment declared (eg, random, randomized, randomization, random allocation) ?",
+C07b,0.49,"If they declared a random allocation to interventions (if they did not answer no), do the authors correctly report how they were allocated (e.g., computer-generated, random numbers, coin toss, etc.) ?",D07b
+C07c,,Are they referring to allocation concealment ?,
+C08,0.73,"Are they mentioning whether or not participants, trial providers and data collectors were blinded ?","D08a,D08b,D08c"
+C08a,,"Is there only a brief description of blinding (eg, single-blind, double-blind, triple-blind) ?",
+C09,0.95,Are the numbers of participants randomized to each group clearly stated ?,D09
+C10,,"Is the Trial status (eg, on-going, closed to recruitment, closed to follow-up, etc.) mentionned ?",
+C11,,Are the numbers of participants analyzed for each group clearly stated (not the number randomized but the patients included in the analysis of the primary outcome)?,D10
+C11a,,"Are the numbers of participants analyzed in accordance with the original grouping (eg, intention-to-treat analysis or pre-protocol analysis) ?",
+C12a,0.94,"For the primary outcome(s) , is there a summary report of results for each group ?",D11
+C12b,0.94,"For the primary outcome(s) , is the estimated effect size clearly stated ?",D11
+C12c,0.94,"For the primary outcome(s) , is the precision of the estimate (eg, 95%CI) clearly stated ?",D11
+C13,0.00,Do the authors correctly mention the presence or absence of adverse events or side effects ?,D12
+C14,,Are the general interpretations corresponding to the results ?,
+C14a,,Are the benefits and harms balanced in the conclusion ?,
+C15,0.99,Are the trial registration number and the name of trial register clearly stated ? Answer no if one of them is missing,"D14a,D14b"
+C16,0.88,Do the authors declare the source of funding ?,D15

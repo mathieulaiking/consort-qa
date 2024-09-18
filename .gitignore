@@ -1,0 +1,16 @@
+__pycache__/
+
+**.ipynb_checkpoints/
+*/**.txt
+core-*
+
+data/*/txt/
+data/*.py
+data/*.json
+
+inference_vllm/*/*
+results/cot_errors
+
+prompts/*/
+
+slurm/*
